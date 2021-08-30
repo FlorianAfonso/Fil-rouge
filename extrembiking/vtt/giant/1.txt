@@ -1,0 +1,28 @@
+Tailles : 27.5: XS,S,M,L 29: S,M,L,XL,XXL
+Coloris : 29: Eclipse Concrete / 27.5: Lava Red
+Cadre : ALUXX
+Fourche : SR Suntour XCE 29 / 27.5, 100mm / 80mm
+Amortisseur : N/A
+Cintre : Giant Connect Trail, 780x31.8
+Potence : Giant Sport, 7-degree
+Tige de selle : Giant Sport, 30.9
+Selle : Giant custom
+Pédales : MTB caged
+Manettes : Shimano SL-M315
+Dérailleur avant : Shimano M315
+Dérailleur arrière : Shimano Tourney
+Freins : Tektro TKD 172, mechanical
+Leviers de frein : RS360A
+Cassette : Shimano MF-TZ500, 14x34
+Chaîne : KMC Z7
+Pédalier : ProWheel forged, 22/36
+Boitier de pédalier : cartridge
+Jantes : Giant GX03V 29 / 27.5, alloy, double wall, 21mm
+Moyeux : [F]Giant Tracker Giant Sport QR, loose ball [R] Giant Tracker Giant Sport QR, loose ball
+Rayons : stainless, 14g
+Pneus : Maxxis Ikon 27.5 / 29x2.2, wire bead
+Poid : 14kg
+
+Prix : 427,50€
+
+Nom : VTT Giant Talon 29 4-GE 2021
