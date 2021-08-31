@@ -21,7 +21,7 @@ Jantes : Giant GX03V 29 / 27.5, alloy, double wall, 21mm
 Moyeux : [F]Giant Tracker Giant Sport QR, loose ball [R] Giant Tracker Giant Sport QR, loose ball
 Rayons : stainless, 14g
 Pneus : Maxxis Ikon 27.5 / 29x2.2, wire bead
-Poid : 14kg
+Poids : 14kg
 
 Prix : 427,50€
 

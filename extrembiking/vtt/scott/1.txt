@@ -1,72 +1,25 @@
-Cadre :
-Spark RC Carbon HMX
-Integrated Suspension Technology
-Flex Pivot / Adjustable head angle
-Syncros Cable Integration System
-BB92 / UDH Interface / 12x148mm with 55mm Chainline
-Fourche :
-RockShox SID Select+ RL3 Air
-custom Charger 3-Mode Damper
-15x110mm Maxle Stealth / 44mm offset / Tapered steerer
-Lockout / Reb. Adj. / 120mm travel
-Amortisseur :
-RockShox NUDE 5 RL3 Trunnion
-SCOTT custom w. travel / geo adj.
-3 modes: Lockout-Traction Control-Descend
-Debon Air / Reb. Adj./ Travel 120-80-Lockout / T165X45mm
-Contrôle suspensions :
-SCOTT TwinLoc 2 Technology
-Suspension & Dropper Remote
-3 Suspension modes
-Dérailleur arrière :
-SRAM X01 Eagle AXS / 12 Speed
-Wireless Electronic Shift System
-Shifters :
-SRAM GX Eagle AXS Rocker Controller
-Pédalier :
-SRAM X01 DUB Eagle Carbon crankarm
-55mm CL / 30T
-Boîtier :
-SRAM DUB PF 92 MTB Wide / shell 41x92mm
-Chaîne :
-SRAM CN X01 Eagle
-Cassette :
-SRAM X01 XG1295 / 10-52 T
-Freins :
-Shimano XTR M9100 Disc
-Rotor :
-Shimano SM-RT76 / 6 Bolt / 180/F and 160/R
-Cintre :
-Syncros Fraser iC SL XC Carbon
--12° rise / back sweep 8° / 740mm / Syncros Women Pro lock-on grips
-Tige de selle :
-FOX Transfer SL Performance Elite Dropper Post
-31.6mm / 100mm
-Selle :
-Syncros Celista 1.5 (Regular) Channel
-Jeu de direction :
-Syncros - Acros Angle adjust & Cable Routing HS System
-+-0.6° head angle adjustment
-ZS56/28.6 – ZS56/40 MTB
-Roues :
-Syncros Silverton 1.0-30 6 Bolt
-F: 15x110mm, R: 12x148mm
-30mm Tubeless ready Carbon rim 28H
-DT Swiss Ratchet Hubs / XD Driver
-SRAM TyreWiz ready / Syncros SL Axle w/Removable Lever
-with 6mm Allen, T30 and T25 Tools
-Pneu avant :
-Maxxis Rekon Race / 29x2.4" / 120TPI Foldable Bead
-Tubeless Ready / EXO
-Pneu arrière :
-Maxxis Rekon Race / 29x2.4" / 120TPI Foldable Bead
-Tubeless Ready / EXO
-Extras :
-SRAM AXS Powerpack
-Accessoires :
-Syncros Eco Sealant
-Transport Axle
-Poid : 10.7kg
+Cadre : Spark RC Carbon HMX Integrated Suspension Technology Flex Pivot / Adjustable head angle Syncros Cable Integration System
+Fourche : RockShox SID Select+ RL3 Air
+          custom Charger 3-Mode Damper
+Amortisseur : RockShox NUDE 5 RL3 Trunnion SCOTT custom w. travel / geo adj.
+              3 modes: Lockout-Traction Control-Descend
+Contrôle suspensions : SCOTT TwinLoc 2 Technology Suspension & Dropper Remote 3 Suspension modes
+Dérailleur arrière : SRAM X01 Eagle AXS / 12 Speed Wireless Electronic Shift System
+Shifters : SRAM GX Eagle AXS Rocker Controller
+Pédalier : SRAM X01 DUB Eagle Carbon crankarm 55mm CL / 30T
+Boîtier : SRAM DUB PF 92 MTB Wide / shell 41x92mm
+Chaîne : SRAM CN X01 Eagle
+Cassette : SRAM X01 XG1295 / 10-52 T
+Freins : Shimano XTR M9100 Disc
+Rotor : Shimano SM-RT76 / 6 Bolt / 180/F and 160/R
+Cintre : Syncros Fraser iC SL XC Carbon
+Selle : Syncros Celista 1.5 (Regular) Channel
+Roues : Syncros Silverton 1.0-30 6 Bolt
+Pneu avant : Maxxis Rekon Race / 29x2.4" / 120TPI Foldable Bead Tubeless Ready / EXO
+Pneu arrière : Maxxis Rekon Race / 29x2.4" / 120TPI Foldable Bead Tubeless Ready / EXO
+Extras : SRAM AXS Powerpack
+Accessoires : Syncros Eco Sealant , Transport Axle
+Poids : 10.7kg
 
 Nom :VTT Scott Contessa Spark RC World Cup EU 
 

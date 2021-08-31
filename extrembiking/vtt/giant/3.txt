@@ -22,7 +22,7 @@ Moyeux : Shimano, sealed bearing
 Rayons : Sapim
 Pneus : [F] Maxxis Recon Race 29x2.35, foldable, TLR, EXO, tubeless, [R] Maxxis Recon Race 29x2.25, foldable, TLR, EXO, tubeless
 Extras : tubeless prepared
-Poid : 12.4kg
+Poids : 12.4kg
 
 Prix 2660€
 

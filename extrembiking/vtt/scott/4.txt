@@ -1,62 +1,21 @@
-Cadre :
-Aspect 900-700 series / Alloy 6061 Custom Tubing
-BSA73 / Internal Cable Routing / replaceable hanger
-Fourche :
-Suntour XCE28
-100mm travel
-Dérailleur arrière :
-Shimano Tourney RD-TY300
-21 Speed
-Dérailleur avant :
-MicroShift FD-M20 / 31.8mm
-Shifters :
-Shimano ST-EF-41-L / 7R
-EZ-fire plus w/gear indicator
-Pédalier :
-Prowheel TA-CQ01
-42x34x24 w/CG
-Boîtier :
-Feimin FP.B902
-BB73 / square taper
-Chaîne :
-KMC Z-7
-Cassette :
-Sunrace CSM40 7AV / 11-34T
-Freins :
-Tektro SCM-02 Mech. Disc
-Rotor :
-Tektro / 6 trous / Av. et Ar. 160 mm
-Cintre :
-HL MTB-AL-312BT / 720mm / black / 12mm rise
-Sncros Pro Grip
-Potence :
-TDS-C301-8FOV / 10° / 31.8 / Black
-Tige de selle :
-HL SP C207
-31.6mm / 350mm / Black
-Selle :
-Syncros 3.0
-Jeu de direction :
-Syncros OE Press Fit / 1 1/8"
-OD 50mm / ID 44mm
-Moyeu avant :
-Formula DC-19 FQR Disc
-Moyeu arrière :
-Formula DC-27A 7s RQR Disc
-Rayons :
-14 G / stainless / black
-Jantes :
-Syncros X-20 Disc
-32H / black
-Pneu avant :
-Pneus Kenda Booster
-2,4" / 30TPI
-Pneu arrière :
-Pneus Kenda Booster
-2,4" / 30TPI
-Pédales :
-Feimin FP-803
-Poid : 14.95kg
+Cadre : Aspect 900-700 series / Alloy 6061 Custom Tubing BSA73 / Internal Cable Routing / replaceable hanger
+Fourche : Suntour XCE28 100mm travel
+Dérailleur arrière : Shimano Tourney RD-TY300 21 Speed
+Dérailleur avant : MicroShift FD-M20 / 31.8mm
+Shifters : Shimano ST-EF-41-L / 7R EZ-fire plus w/gear indicator
+Pédalier : Prowheel TA-CQ01 42x34x24 w/CG
+Chaîne : KMC Z-7
+Cassette : Sunrace CSM40 7AV / 11-34T
+Freins : Tektro SCM-02 Mech. Disc
+Cintre : HL MTB-AL-312BT / 720mm / black / 12mm rise
+Potence : TDS-C301-8FOV / 10° / 31.8 / Black
+Tige de selle : HL SP C207
+Selle : Syncros 3.0
+Jantes : Syncros X-20 Disc 32H / black
+Pneu avant : Pneus Kenda Booster
+Pneu arrière : Pneus Kenda Booster
+Pédales : Feimin FP-803
+Poids : 14.95kg
 
 Prix : 459€
 

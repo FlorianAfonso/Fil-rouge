@@ -15,7 +15,7 @@ Selle : Fizik Antares R7
 Moyeux : DT Swiss M1900
 Jantes : DT Swiss M1900, 30mm
 Pneus : Maxxix Rekon 2.4" WT, TR, EXO
-Poids : 12.1
+Poids : 12.1kg
 
 Prix : 5999€
 

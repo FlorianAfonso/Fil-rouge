@@ -22,7 +22,7 @@ Moyeux : Giant TRX-0 29 WheelSystem
 Rayons : Giant TRX-0 29 WheelSystem
 Pneus : [F] Maxxis Assegai 29x2.5 WT, 3C MaxxTerra, , EXO+, TR [R] Maxxis Minion DHR II 29x2.4 WT, 3C MaxxTerra , EXO+, TR tubeless
 Extras : tubeless prepared
-Poid : 13.64kg 
+Poids : 13.64kg 
 
 Prix 8835,50€
 

@@ -14,7 +14,7 @@ Selle : Fizik Antares R7
 Moyeux : DT Swiss XR 1700
 Jantes : DT Swiss XR 1700, 25mm
 Pneus : Vittoria Barzo 2.25
-Poids : 9.5
+Poids : 9.5kg
 
 Prix : 3999€
 

@@ -1,63 +1,22 @@
-Cadre :
-Gambler Carbon / IMP Technology / HMX
-BB107 / Carbon swingarm
-VLK Virtual 4 Link kinematic
-27.5" (2.6) and 29" (2.5) tire compatible with Geo -BB adj.
-SW DH 12x157mm dropout
-TBC Trunnion box construction
-Fourche :
-FOX 40 Factory / Kashima / Air
-GRIP2 / Hi-Lo Comp / Rebound / 52mm Offset
-20mm Boost thru axle / Alloy steerer / 203mm Travel
-Amortisseur :
-FOX DH X2 Factory
-Independent high/low comp. / rebound / RVS
-custom tuned / 225x75mm
-Spring rates S: 400 / M: 450 / L&XL: 500
-Dérailleur arrière :
-SRAM XO1 DH
-Short cage / 7 Speed
-Shifters :
-SRAM XO1 DH
-Trigger Shifter / 7 Speed
-Pédalier :
-SRAM X01 DH DUB Carbon
-34T Alloy Chainring DM / 165mm
-Chainguide :
-SCOTT DH Custom
-Boîtier :
-SRAM DUB PF MTB107
-Shell 107x41mm
-Chaîne :
-KMC X11-1 Black
-Cassette :
-SRAM CS PG-720 DH 11-25
-Freins :
-Shimano XTR M9120 4 Piston Disc
-Rotor :
-Shimano SM-RT86 / 6 trous / 203 mm
-Cintre :
-Syncros Hixon iC DH Carbon
-15mm Rise / 8° / 800mm
-Syncros Pro DH dual lock-on grips
-Tige de selle :
-Syncros DH1.5 / 31.6mm / Alloy7050
-Selle :
-Syncros Kaslo 1.5
-Titanium Rails
-Jeu de direction :
-Syncros DH adjustable
-Semi integrated / adj +-1° with cup
-ID 49.6mm / OD 56mm
-Roues :
-Syncros Revelsoke DH 1.5 / 110x20 Boost front / 157x12 rear / 29" / 32H / Tubeless Ready Rims
-Pneu avant :
-Maxxis Assegai 29 x 2,5" / Renforts en kevlar 2 x 60TPI / DH / TR / Grip 3C Maxx
-Pneu arrière :
-Maxxis Assegai 29 x 2,5" / Renforts en kevlar 2 x 60TPI / DH / TR / Grip 3C Maxx
-Extras :
-Fox 40 Fender
-Poid : 15.6kg
+Cadre : Gambler Carbon / IMP Technology / HMX BB107 / Carbon swingarm VLK Virtual 4 Link kinematic
+Fourche : FOX 40 Factory / Kashima / Air GRIP2 / Hi-Lo Comp / Rebound / 52mm Offset
+Amortisseur : FOX DH X2 Factory Independent high/low comp. / rebound / RVS
+Dérailleur arrière : SRAM XO1 DH Short cage / 7 Speed
+Shifters : SRAM XO1 DH Trigger Shifter / 7 Speed
+Pédalier : SRAM X01 DH DUB Carbon 34T Alloy Chainring DM / 165mm
+Chainguide : SCOTT DH Custom
+Boîtier : SRAM DUB PF MTB107 Shell 107x41mm
+Chaîne : KMC X11-1 Black
+Cassette : SRAM CS PG-720 DH 11-25
+Freins : Shimano XTR M9120 4 Piston Disc
+Cintre : Syncros Hixon iC DH Carbon 15mm Rise / 8° / 800mm Syncros Pro DH dual lock-on grips
+Tige de selle : Syncros DH1.5 / 31.6mm / Alloy7050
+Selle : Syncros Kaslo 1.5 Titanium Rails
+Roues : Syncros Revelsoke DH 1.5 / 110x20 Boost front / 157x12 rear / 29" / 32H / Tubeless Ready Rims
+Pneu avant : Maxxis Assegai 29 x 2,5" / Renforts en kevlar 2 x 60TPI / DH / TR / Grip 3C Maxx
+Pneu arrière : Maxxis Assegai 29 x 2,5" / Renforts en kevlar 2 x 60TPI / DH / TR / Grip 3C Maxx
+Extras : Fox 40 Fender
+Poids : 15.6kg
 
 Prix : 8499€
 

@@ -18,7 +18,7 @@ Jeu de direction : KTM Team Trail35
 Potence : KTM Team drop/in 1.1/8"-1.5"
 Selle : Ergon SM10 Enduro Comp Men
 Tige de selle : KTM Team dropper internal
-poid : 14.2kg 
+poids : 14.2kg 
  
 Prix : 4649€
 
