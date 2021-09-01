@@ -2,21 +2,22 @@
 session_start() ;
 require "connexion_bdd.php" ;
 $db = connexionBase() ;
-$wequete = "INSERT INTO users (cus_login, cus_password, cus_firstname, cus_lastname, cus_date_birth, cus_email, cus_phone_number, cus_address, cus_city, cus_zipcode, cus_country, cus_date_created)
-            VALUES (:login, :password, :firstname, :lastname, :date_birth, :email, :phone_number, :address, :city, :zipcode, :country, NOW())" ;
+$wequete = "INSERT INTO customers (cus_login, cus_password, cus_lastname, cus_firstname, cus_date_birth, cus_email, cus_phone_number, cus_address, cus_city, cus_zipcode, cus_country, cus_date_created)
+            VALUES (:login, :mdp, :nom, :prenom, :ddn, :mail, :phone, :address, :city, :zip, :country, NOW())" ;
 $requete = $db ->prepare($wequete) ;
-$requete -> bindValue(":pseudo", $_POST["pseudo"]) ;
+$requete -> bindValue(":login", $_POST["pseudo"]) ;
 $mdp = password_hash($_POST["mdp"], PASSWORD_DEFAULT) ;
+$requete -> bindValue(":mdp", $mdp) ;
 $requete -> bindValue(":nom", $_POST["nom"]) ;
 $requete -> bindValue(":prenom", $_POST["prenom"]) ;
 $requete -> bindValue(":ddn", $_POST["ddn"]) ;
 $requete -> bindValue(":mail", $_POST["mail"]) ;
 $requete -> bindValue(":phone", $_POST["phone"]) ;
-$requete -> bindValue(":adress", $_POST["address"]) ;
+$requete -> bindValue(":address", $_POST["address"]) ;
 $requete -> bindValue(":city", $_POST["city"]) ;
 $requete -> bindValue(":zip", $_POST["zip"]) ;
 $requete -> bindValue(":country", $_POST["country"]) ;
-$requete -> bindValue(":mdp", $mdp) ;
+
 
 $erreurs = "" ;
 

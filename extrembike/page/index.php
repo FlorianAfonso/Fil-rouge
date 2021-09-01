@@ -14,6 +14,7 @@
 <br> <br>
 <?php
 echo $_SESSION["login"] ;
+echo "<br>" ;
 echo $_SESSION["mdp"] ;
 ?>
     <?php

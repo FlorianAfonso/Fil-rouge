@@ -57,8 +57,8 @@
         <?php if (isset($_GET["epho"])) {echo "<span class='text-danger'>Veuillez indiquez un numéro de téléphone valide</span>" ;} ?>
         <br>
 
-        <label for="adress">Adresse :</label>
-        <input type="text" id="adress" name="adress" class="form-control <?php if (isset($_GET["eadd"])) {echo "border border-danger" ;} ?>"> 
+        <label for="address">Adresse :</label>
+        <input type="text" id="address" name="address" class="form-control <?php if (isset($_GET["eadd"])) {echo "border border-danger" ;} ?>"> 
         <?php if (isset($_GET["eadd"])) {echo "<span class='text-danger'>Veuillez indiquez une adresse valide</span>" ;} ?>
         <br>
     
