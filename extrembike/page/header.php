@@ -11,7 +11,7 @@
 <body>
 
 <div class="container">
-<img class="img-fluid img-responsive w-80" src="Capture2.png" alt="Image">
+<img class="img-fluid img-responsive w-80" src="vtt_photos/accueil.png" alt="Image">
 <nav class="navbar navbar-expand-lg navbar-light bg-info">
   <a class="navbar-brand text-light" href="index.php"><b><i>Extrem'Bike</i></b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link text-light" href="index.php"><i class="fas fa-home"></i> Acceuil<span class="sr-only"></span></a>
+        <a class="nav-link text-light" href="index.php"><i class="fas fa-home"></i> Accueil<span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
       </li>
@@ -46,11 +46,12 @@
   <form class="px-4 py-3 " action="verif_connexion.php" method="POST">
     <div class="form-group">
       <label for="pseudo" class="text-info">Identifiant</label>
-      <input type="text" class="form-control text-info" id="pseudo" name="pseudo" placeholder="Identifiant">
+      <input type="text" class="form-control text-info" id="pseudo" name="pseudo" placeholder="user_name">
     </div>
     <div class="form-group">
       <label for="mdp" class="text-info">Mot de passe</label>
-      <input type="password" class="form-control text-info" id="mdp" name="mdp" placeholder="Mot de passe">
+      <input type="password" class="form-control text-info <?php if (isset($_GET['emdp'])) { echo 'border border-danger' ; }?>" id="mdp" name="mdp" placeholder="password">
+      <?php if (isset($_GET['emdp'])) { echo '<span class=" text-danger"><center>Mot de passe erroné</center></span>' ; }?>
     </div>
     <div class="form-group">
       <div class="form-check">

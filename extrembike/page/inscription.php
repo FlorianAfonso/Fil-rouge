@@ -19,7 +19,7 @@
 
         <br>
         <label for="mdp">Mot de passe <span class="text-danger">* </span> :</label>
-        <input type="text" id="mdp" name="mdp" class="form-control <?php if (isset($_GET["emdp"])) {echo "border border-danger" ;} ?>">
+        <input type="password" id="mdp" name="mdp" class="form-control <?php if (isset($_GET["emdp"])) {echo "border border-danger" ;} ?>">
         <?php if (isset($_GET["emdp"])) {echo "<span class='text-danger'>Veuillez indiquez un mot de passe valide</span>" ;} ?>
 
 

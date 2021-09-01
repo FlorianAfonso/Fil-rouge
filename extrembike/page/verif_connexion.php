@@ -1,6 +1,8 @@
 <?php 
 session_start() ;
 
+$erreur ="";
+
 if (isset($_POST["submit"]))
 {
     $login = $_POST["pseudo"] ;
@@ -25,14 +27,14 @@ if (isset($_POST["submit"]))
         }
         else
         {
-            header ("Location: inscription.php") ;
-            exit ;
+            $erreur.="&emdp" ; 
+            header ("Location: index.php?$erreur") ;
         }
     }
     else
     {
-        header ("Location: inscription.php") ;
-        exit ;
+        $erreur.="&emdp" ; 
+        header ("Location: index.php?$erreur") ;
     }
 }
 ?>
