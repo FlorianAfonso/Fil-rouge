@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html lang="fr" class="mt-3">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Extrem'Bike</title>
-</head>
-<body class="text-info">
+
     <?php
     require "header.php";
     ?>
 
 <br> <br>
 
-<div class="container">
+<div class="container text-info">
 
 
 <h1 >Inscription</h1>
 <form action="verif_inscription.php" method="POST" id="inscription">
-    <p><span class="text-danger">* Information indispensable</span>
+    <span class="text-danger">* Information indispensable</span>
         <legend>Vos coordonnées</legend>
 
         <label for="pseudo">Pseudo <span class="text-danger">* </span>:</label>
@@ -78,15 +70,12 @@
         <br> 
 
         <button class="btn btn-info" type="submit">S'inscrire</button> 
-        
+
+ </form>
+ </div>
+
+ <br>
+
     <?php
     require "footer.php";
     ?>
-
-    </fieldset>
-
-
-   
-
-</body>
-</html

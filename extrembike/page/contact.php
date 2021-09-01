@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="Fr">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<title>Extrem'Bike</title>
-</head>
 
-<body class="text-info">
-    
 <?php
 require "header.php"
 ?>
 <br>
 
-        <div class="container">
+        <div class="container text-info">
 
 
             <h1 >Contacts</h1>
@@ -80,7 +69,3 @@ require "header.php"
         <?php
         require "footer.php"
         ?>
-
-</body>
-
-</html>
