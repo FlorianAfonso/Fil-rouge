@@ -78,5 +78,9 @@
   </div>
 </nav>
 </div>
+
+<img src="vtt_photos/extrembike_logo.png" alt="extrembike" title="extrembike" width="300" height="180" class="rounded mx-auto d-block">
+
 <script src="https://kit.fontawesome.com/08f7104fd7.js" crossorigin="anonymous"></script>
+
 
