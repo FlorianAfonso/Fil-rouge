@@ -29,10 +29,10 @@ require "header.php"
                     <label for="cp">Code postale<span class="text-danger">* </span>:</label>
                     <input type="text" id="cp" name="user_cp" class="form-control"> <br>
 
-                    <label for="adress">Adresse :</label>
+                    <label for="adress">Adresse<span class="text-danger">* </span>:</label></label>
                     <input type="text" id="adress" name="user_adress" class="form-control"> <br>
 
-                    <label for="ville">Ville :</label>
+                    <label for="ville">Ville<span class="text-danger">* </span>:</label></label>
                     <input type="text" id="ville" name="user_ville" class="form-control"> <br>
 
                     <label for="mail">Email<span class="text-danger">* </span>:</label>
@@ -60,11 +60,10 @@ require "header.php"
                 <input type="checkbox" name="couleur3" value="Vert"><span class="text-danger">* </span>J'accepte le
                 traitement informatique de ce formulaire
                 <br><br>
-                <input type="submit" value="Envoyer" class="form-control text-info">
-                <br>
-                <input type="reset" value="Annuler" class="form-control text-info">
-                <br>
-        </div>
+                <input type="submit" value="Envoyer" class="text-light btn btn-info">  <input type="reset" value="Annuler" class="text-light btn btn-info">
+
+                <br><br>
+        </div> 
         </form>
         <?php
         require "footer.php"

@@ -1,4 +1,4 @@
-<?php session_start() ; ?>
+<?php session_start() ; ?> <!-- permet l'utilisation du $_SESSION dans les pages php -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -81,6 +81,7 @@
 
 <script src="https://kit.fontawesome.com/08f7104fd7.js" crossorigin="anonymous"></script>
 
+<!-- connection a la base de données -->
 <?php
   require "connexion_bdd.php";
   $db=connexionBase();
@@ -90,32 +91,32 @@
 
 <br>
 
-    <a href="bmc.php" title="BMC">
+    <a href="bmc.php" title="BMC"> <!--logo lien qui renvoie sur la page des velo de marque BMC-->
       <img src="vtt_photos/bmc_logo2.png" alt="BMC" title="BMC" width="300" height="180" class="rounded mx-auto d-block">
     </a>
 
 <br>
 
-    <a href="cube.php" title="Cube">
+    <a href="cube.php" title="Cube"><!--logo lien qui renvoie sur la page des velo de marque Cube-->
       <img src="vtt_photos/cube_logo.png" alt="Cube" title="Cube" width="250" height="100" class="rounded mx-auto d-block">
     </a>
 
 <br><br>
 
-    <a href="giant.php" title="Giant">
+    <a href="giant.php" title="Giant"><!--logo lien qui renvoie sur la page des velo de marque Giant-->
       <img src="vtt_photos/giant_logo.png" alt="Giant" title="Giant" width="250" height="100" class="rounded mx-auto d-block">
     </a>
 
 
 <br><br>
 
-    <a href="scott.php" title="Scott">
+    <a href="scott.php" title="Scott"><!--logo lien qui renvoie sur la page des velo de marque Scott-->
        <img src="vtt_photos/scott_logo.jpg" alt="Scott" title="Scott" width="350" height="150" class="rounded mx-auto d-block">
     </a>
 
 <br><br>
 
-    <a href="ktm.php" title="KTM">
+    <a href="ktm.php" title="KTM"><!--logo lien qui renvoie sur la page des velo de marque KTM-->
       <img src="vtt_photos/ktm_logo.png" alt="KTM" title="KTM" width="250" height="100" class="rounded mx-auto d-block">
     </a>
 
@@ -123,6 +124,7 @@
 
 </div>
 
+<!-- ajout du footer de page -->
 <?php
   require "footer.php";
 ?>

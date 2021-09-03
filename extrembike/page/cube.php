@@ -1,7 +1,9 @@
+<!-- insertion du header -->
 <?php
 require "header.php";
 ?>
 
+<!-- mise en forme de la page e-commerce--> 
 <div class="container d-flex text-center">
 
 <div class="card mr-2" style="width: 18rem;">
@@ -85,6 +87,7 @@ require "header.php";
 </div>
 
 <br>
+<!--Insertion du footer-->
 <?php
 require "footer.php";
 ?>

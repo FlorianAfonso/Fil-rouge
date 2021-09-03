@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="vtt_photos/extrembike_logo.png"> <!-- Ajout du Favicon -->
     <title>Extrem'Bike</title>
 </head>
 <body>
 
+<!-- ajout de la photo d'accueil et de la navbar -->
 <div class="container">
 <img class="img-fluid img-responsive w-80" src="vtt_photos/accueil.png" alt="Image">
 <nav class="navbar navbar-expand-lg navbar-light bg-info">
@@ -32,12 +34,13 @@
       </li>
 
       
-      <?php if (isset($_SESSION["login"])) : ?>
+      <?php if (isset($_SESSION["login"])) : ?> <!-- Affichage de connection a la base de données en temp que client -->
 
 <a class="btn btn-info mr-1" href="profil.php"><i class="fas fa-portrait"></i> Profil</a>
 <a class="btn btn-info ml-1" href="deconnexion.php"><i class="fas fa-sign-out-alt"></i> Deconnexion</a>
 
-<?php else : ?>
+<!-- Boucle qui permet de crées un compte utilisateur enrigistré automatiquement a la base de données -->
+<?php else : ?> 
   <div class="dropdown">
   <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <i class="fas fa-user-circle"></i> Mon compte 
@@ -51,7 +54,7 @@
     <div class="form-group">
       <label for="mdp" class="text-info">Mot de passe</label>
       <input type="password" class="form-control text-info <?php if (isset($_GET['emdp'])) { echo 'border border-danger' ; }?>" id="mdp" name="mdp" placeholder="password">
-      <?php if (isset($_GET['emdp'])) { echo '<span class=" text-danger"><center>Mot de passe erroné</center></span>' ; }?>
+      <?php if (isset($_GET['emdp'])) { echo '<span class=" text-danger"><center>Mot de passe erroné</center></span>' ; }?> <!-- msg d'info si erreur de mdp -->
     </div>
     <div class="form-group">
       <div class="form-check">
@@ -70,6 +73,8 @@
 </div>
  <?php endif ; ?>
 
+
+ <!-- Barre de recherche du site avec le bouton validation -->
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mx-sm-1" type="search" placeholder="J'ai besoin de..." aria-label="Search">
@@ -79,8 +84,9 @@
 </nav>
 </div>
 
+<!-- Logo du site Extrem'Bike-->
 <img src="vtt_photos/extrembike_logo.png" alt="extrembike" title="extrembike" width="300" height="180" class="rounded mx-auto d-block">
 
-<script src="https://kit.fontawesome.com/08f7104fd7.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/08f7104fd7.js" crossorigin="anonymous"></script><!-- lien des icons du site -->
 
 
