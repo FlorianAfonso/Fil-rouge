@@ -35,7 +35,7 @@ if ($result -> rowCount() == 0)
               <div class="card-body">
                 <h5 class="card-title"><?php echo $row->pro_name ; ?></h5>
                 <p class="card-text"><?php echo $row->pro_price ; ?> €</p>
-                <a href="details.php?pro_id=4" class="btn btn-info">Détails</a> 
+                <a href="details.php?pro_id=<?php echo $row->pro_id ; ?>" class="btn btn-info">Détails</a>
               </div>
             </div>
 

@@ -32,6 +32,11 @@
       <li class="nav-item">
         <a class="nav-link text-light" href="contact.php"><i class="far fa-address-book"></i> Contact</a>
       </li>
+      <?php if (isset($_SESSION["login"])) : ?>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="admin.php"><i class="fas fa-user-shield"></i> Admin</a>
+      </li>
+      <?php endif;?>
 
       
       <?php if (isset($_SESSION["login"])) : ?> <!-- Affichage de connection a la base de données en temp que client -->
