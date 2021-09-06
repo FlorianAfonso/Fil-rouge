@@ -21,7 +21,9 @@ if (isset($_POST["submit"]))
         if (password_verify($mdp, $data[0]["cus_password"]))
         {
             $_SESSION["login"] = $login ;
-            $_SESSION["role"] = "admin" ;
+            $result->execute() ;
+            $customers = $result->fetch(PDO::FETCH_OBJ) ;
+            $_SESSION["role"] = $customers->cus_role ;
             header ("Location: index.php") ;
             exit ;
         }

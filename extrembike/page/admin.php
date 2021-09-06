@@ -1,7 +1,6 @@
 <!-- PAGE VISIBLE QUE PAR MOI -->
 <?php
 // Appel des pages nécéssaires, connexion à la DB et création de la requête
-$title = "Jarditou | Login" ;
 require "header.php" ;
 require "connexion_bdd.php" ;
 $db = connexionBase() ; 

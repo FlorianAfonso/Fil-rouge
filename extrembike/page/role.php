@@ -1,5 +1,4 @@
 <?php
-$title = "Jarditou | Login" ;
 require "header.php" ;
 require "connexion_bdd.php" ;
 $cus_id = $_GET["cus_id"] ;

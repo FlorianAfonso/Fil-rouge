@@ -27,7 +27,7 @@
       <li class="nav-item">
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="liste.php"><i class="fas fa-shopping-cart"></i> Shop</a>
+        <a class="nav-link text-light" href="liste.php"><i class="fas fa-store"></i> Shop</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-light" href="contact.php"><i class="far fa-address-book"></i> Contact</a>
@@ -89,6 +89,7 @@
 </nav>
 </div>
 
+<br>
 <!-- Logo du site Extrem'Bike-->
 <img src="vtt_photos/extrembike_logo.png" alt="extrembike" title="extrembike" width="300" height="180" class="rounded mx-auto d-block">
 
