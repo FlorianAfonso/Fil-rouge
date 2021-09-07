@@ -31,7 +31,7 @@ if ($result -> rowCount() == 0)
         <div class="col-3 mb-2">
 
             <div class="card px-2" style="width: 18rem;">
-              <img class="card-img-top" src="vtt_photos/<?php echo $row->pro_picture_file_name ; ?>.jpg" alt="Card image cap">
+              <img class="card-img-top" src="vtt_photos/<?php echo $row->pro_id ; ?>.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title"><?php echo $row->pro_name ; ?></h5>
                 <p class="card-text"><?php echo $row->pro_color ; ?></p>

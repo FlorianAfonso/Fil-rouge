@@ -12,7 +12,7 @@ $produit=$result->fetch(PDO::FETCH_OBJ);
 ?>
 
 <div class="container">
-<center><img src="vtt_photos/<?php echo $produit->pro_picture_file_name;?>.jpg"></center>
+<center><img src="vtt_photos/<?php echo $produit->pro_id;?>.jpg"></center>
 <p><?php echo nl2br($produit->pro_description);?></p>
 
 </div>

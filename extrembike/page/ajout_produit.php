@@ -85,10 +85,11 @@ $categorie -> execute() ;
     <br><br>
 
     <div class="text-center">
-        <button class="btn btn-info"> Enregistrer</button>
+        <button type="submit" class="btn btn-info"> Enregistrer</button>
         <a href="liste.php" class="btn btn-info"> Annuler</a>
     </div>
-    </div>
+    
+        </form>
 
 <br><br>
 <?php

@@ -2,22 +2,22 @@
 
 require "connexion_bdd.php" ;
 $db = connexionBase() ;
-$extension = substr(strrchr($_FILES["photo"]["name"], "."), 1);
+
 $wequete = "INSERT INTO products (pro_name, pro_price, pro_reference, pro_stock, pro_color, pro_description, pro_date_created, pro_cat_id)
-            VALUES (:nom, :prix, :libelle, :stock, :couleur, :description, NOW() :categorie)" ;
+            VALUES (:libelle, :prix, :reference, :stock, :couleur, :description, NOW(), :categorie)" ;
 $requete = $db -> prepare($wequete) ;
 $requete->bindValue(":categorie", $_POST["categorie"]) ;
-$requete->bindValue(":libelle", $_POST["reference"]) ;
+$requete->bindValue(":reference", $_POST["ref"]) ;
 $requete->bindValue(":description", $_POST["description"]) ;
 $requete->bindValue(":prix", $_POST["prix"]) ;
 $requete->bindValue(":stock", $_POST["stock"]) ;
 $requete->bindValue(":couleur", $_POST["couleur"]) ;
-$requete->bindValue(":nom", $_POST["nom"]) ;
-$requete->bindValue(":categorie", $_POST["categorie"]) ;
+$requete->bindValue(":libelle", $_POST["libelle"]) ;
+
 
 $erreurs = "" ;
 
-$aMimeTypes = array('image/jpg', 'image/jpeg', 'image/png');            
+$aMimeTypes = array('image/jpg', 'image/jpeg');            
 $finfo = finfo_open(FILEINFO_MIME_TYPE);            
 $mimeType = finfo_file($finfo, $_FILES['photo']['tmp_name']);           
 finfo_close($finfo);  
@@ -25,7 +25,7 @@ finfo_close($finfo);
 //Photo
 if (!in_array($mimeType, $aMimeTypes))            
 {            
-    $errors .= '&ephoto';            
+    $erreurs .= '&ephoto';       
     header("Location: ajout_produit.php?" . $erreurs) ;          
 } 
 
@@ -80,20 +80,23 @@ if (!preg_match("/^[a-zA-Z]{0,30}$/", $_POST["couleur"]))
 
 if ($erreurs != NULL)
 {
-    exit ;
+    exit;
 }
 
 else
     {
-        $requete -> execute() ;
+        if (! $requete -> execute()) { var_dump( $requete->errorInfo() ) ; }
+        
+
+
         $requete -> closeCursor() ;
-        $requete = $db->prepare('SELECT pro_id FROM products WHERE pro_ref = ?');            
+        $requete = $db->prepare('SELECT pro_id FROM products WHERE pro_reference = ?');            
         $requete->bindValue(1, $_POST['ref']);            
         $requete->execute();         
         $resultat = $requete->fetch(PDO::FETCH_OBJ);            
         $requete->closeCursor();  
                      
-        move_uploaded_file($_FILES['photo']['tmp_name'], "vtt_photos/$resultat->pro_id.$extension");
+        move_uploaded_file($_FILES['photo']['tmp_name'], "vtt_photos/$resultat->pro_id.jpg");
         header("Location: liste.php") ;
         exit ;
     }
