@@ -124,6 +124,12 @@
       <img src="vtt_photos/ktm_logo.png" alt="KTM" title="KTM" width="250" height="100" class="rounded mx-auto d-block">
     </a>
 
+    <br>
+    
+    <?php if (isset($_SESSION["role"]) && ($_SESSION["role"] == "Big Boss")) : ?>
+    <center><a class="btn btn-info" href="ajout_produit.php"><i class="far fa-plus-square"></i> Ajouter un produit</a></center>
+    <?php endif ;?>
+
 <br><br>
 
 </div>

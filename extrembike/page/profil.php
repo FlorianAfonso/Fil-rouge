@@ -31,9 +31,7 @@ $result->execute() ;
 ?>
 <br><br>
 <div class="container">
-<?php if (isset($_SESSION["role"]) && ($_SESSION["role"] == "Big Boss")) : ?>
-<center><a class="btn btn-info" href="ajout_produit.php">Ajouter un produit</a> <a class="btn btn-info" href="ajout_produit.php">Supprimer un produit</a></center>
-<?php endif ;?>
+
 
 </div>
 <br>

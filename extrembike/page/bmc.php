@@ -36,7 +36,7 @@ if ($result -> rowCount() == 0)
                 <h5 class="card-title"><?php echo $row->pro_name ; ?></h5>
                 <p class="card-text"><?php echo $row->pro_color ; ?></p>
                 <p class="card-text"><b><?php echo $row->pro_price ; ?> €</b></p>
-                <a href="details.php?pro_id=<?php echo $row->pro_id ; ?>" class="btn btn-info"><i class="fas fa-info-circle"></i></a> <a href="panier.php" class="btn btn-info"><i class="fas fa-shopping-cart"></i></a>
+                <a href="details.php?pro_id=<?php echo $row->pro_id ; ?>" class="btn btn-info"><i class="fas fa-info-circle"></i></a> <a href="panier.php" class="btn btn-info"><i class="fas fa-shopping-cart"></i></a> <?php if (isset($_SESSION["role"]) && ($_SESSION["role"] == "Big Boss")) : ?> <a class="btn btn-danger ml-3" href="delete.php?pro_id=<?php echo $row->pro_id ; ?>"><i class="fas fa-trash-alt"></i></a> <?php endif ; ?>
               </div>
             </div>
 

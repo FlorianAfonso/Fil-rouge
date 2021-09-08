@@ -58,7 +58,7 @@ if (!preg_match("/^[\s\S]{0,10000}$/", $_POST["description"]))
 }
 
 // Prix
-if (!preg_match("/^[0-9]{1,9}$/", $_POST["prix"]))
+if (!preg_match("/^[0-9]{1,4}\.{0,1}[0-9]{0,2}$/", $_POST["prix"]))
 {
     $erreurs .= "&eprix";            
     header("Location: ajout_produit.php?" . $erreurs) ;      
