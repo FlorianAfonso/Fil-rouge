@@ -4,7 +4,6 @@ require "connexion_bdd.php";
 $db=connexionBase();
 $categorie = $db->prepare("SELECT cat_id , cat_name FROM categories ORDER BY cat_name");
 $categorie -> execute() ;
-
 ?>
 
 <form class="form-group" action="verif_ajout.php" method="POST" enctype="multipart/form-data">
